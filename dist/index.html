@@ -176,11 +176,21 @@
     </section>
 
     <!-- Divider Arrow -->
-    <div class="pt-20 md:pt-28 pb-[90px] md:pb-[120px]">
-      <img src="./assets/icons/arrow-down.svg" alt="" class="">
+    <div class="pt-20 md:pt-28 pb-[90px] md:pb-[120px] flex items-center justify-between">
+      <div>
+        <img src="./assets/icons/arrow-down.svg" alt="" class="">
+      </div>
+      <div>
+        <a href="#" onclick="openGreenGeeksSeal()"><img src="https://static.greengeeks.com/ggseal/Green_17.png"
+            alt="Green Geeks Seal" class="w-[80px] h-[80px] lg:w-24 lg:h-24 rounded-lg"></a>
+        <script defer>
+          const openGreenGeeksSeal = () => {
+            window.open('https://my.greengeeks.com/seal', '_blank');
+          };
+        </script>
+      </div>
     </div>
   </div>
-
 
   <!-- About us -->
   <section id="about-us" class="py-16 lg:py-32 grid grid-cols-1 lg:grid-cols-3 lg:gap-24">
