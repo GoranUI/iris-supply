@@ -1519,19 +1519,19 @@ select {
   src: url('./assets/fonts/Proxima_Nova/ProximaNovaSemibold.otf') format('opentype');
 }
 
-.hover\:border-iris-green-darkest:hover {
+.hover\:border-iris-green-darker:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(0 35 71 / var(--tw-border-opacity));
+  border-color: rgb(1 74 36 / var(--tw-border-opacity));
 }
 
-.hover\:border-iris-orange-darkest:hover {
+.hover\:border-iris-orange-darker:hover {
   --tw-border-opacity: 1;
-  border-color: rgb(163 62 5 / var(--tw-border-opacity));
+  border-color: rgb(204 74 0 / var(--tw-border-opacity));
 }
 
 .hover\:bg-iris-green-darker:hover {
   --tw-bg-opacity: 1;
-  background-color: rgb(1 64 33 / var(--tw-bg-opacity));
+  background-color: rgb(1 74 36 / var(--tw-bg-opacity));
 }
 
 .hover\:bg-iris-orange-darker:hover {

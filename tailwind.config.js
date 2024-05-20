@@ -8,12 +8,10 @@ module.exports = {
       },
       colors: {
         'iris-green': '#015C2D',
-        'iris-green-darker': '#014021', // TODO: Fix
-        'iris-green-darkest': '#002347', // TODO: Fix
+        'iris-green-darker': '#014A24',
         'iris-blue': '#002347',
         'iris-orange': '#FF5C00',
         'iris-orange-darker': '#CC4A00',
-        'iris-orange-darkest': '#A33E05',
         'iris-supply-green': '#015C2D',
         'gray': '#344054',
         'light-gray': '#D0D5DD',
