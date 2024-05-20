@@ -1,0 +1,69 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .dot-pattern {
+    background-image: url('./assets/images/background-dot-pattern.svg');
+    background-position: center;
+    background-repeat: repeat-y;
+  }
+
+  .logo-background {
+    background-image: url('./assets/images/logo-background.svg');
+    background-position: top 216px right 0px;
+    background-repeat: no-repeat;
+  }
+
+  .remove-blue-background {
+    @apply w-screen relative left-[calc(-50vw+50%)];
+  }
+}
+
+/* SchibstedGrotesk-Bold */
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  src: url('./assets/fonts/Schibsted_Grotesk/SchibstedGrotesk-Bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+
+/* SchibstedGrotesk-Medium */
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  src: url('./assets/fonts/Schibsted_Grotesk/SchibstedGrotesk-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* SchibstedGrotesk-Regular */
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  src: url('./assets/fonts/Schibsted_Grotesk/SchibstedGrotesk-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* SchibstedGrotesk-SemiBold */
+@font-face {
+  font-family: 'Schibsted Grotesk';
+  src: url('./assets/fonts/Schibsted_Grotesk/SchibstedGrotesk-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+/* ProximaNovaBold */
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 800;
+  src: url('./assets/fonts/Proxima_Nova/ProximaNovaBold.otf') format('opentype');
+}
+
+/* ProximaNovaSemibold */
+@font-face {
+  font-family: 'Proxima Nova';
+  font-style: normal;
+  font-weight: 600;
+  src: url('./assets/fonts/Proxima_Nova/ProximaNovaSemibold.otf') format('opentype');
+}
