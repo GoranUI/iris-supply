@@ -9,12 +9,6 @@
     background-repeat: repeat-y;
   }
 
-  .logo-background {
-    background-image: url('./assets/images/logo-background.svg');
-    background-position: top 216px right 0px;
-    background-repeat: no-repeat;
-  }
-
   .remove-blue-background {
     @apply w-screen relative left-[calc(-50vw+50%)];
   }
