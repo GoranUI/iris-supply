@@ -539,6 +539,20 @@
             </div>
 
             <div class="space-y-2">
+              <label for="im-looking-for" class="block font-schibsted font-medium text-sm text-label-gray leading-5">
+                I'm looking for...
+              </label>
+              <select name="im-looking-for" id="im-looking-for" required
+                class="bg-white border border-light-gray rounded-lg px-4 py-2 w-full font-schibsted font-normal text-normal invalid:text-placeholder-gray">
+                <option hidden disabled selected value>Please select an option</option>
+                <option value="pv-modules">PV Modules</option>
+                <option value="inverters">Inverters</option>
+                <option value="racking-system">Racking system</option>
+                <option value="something-else">Something else</option>
+              </select>
+            </div>
+
+            <div class="space-y-2">
               <label for="message"
                 class="block font-schibsted font-medium text-sm text-label-gray leading-5">Message</label>
               <textarea id="message" name="message" placeholder="Leave us a message..." rows="5"
