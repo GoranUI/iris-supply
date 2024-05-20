@@ -20,6 +20,7 @@
   src: url('./assets/fonts/Schibsted_Grotesk/SchibstedGrotesk-Bold.ttf') format('truetype');
   font-weight: bold;
   font-style: normal;
+  font-display: swap;
 }
 
 /* SchibstedGrotesk-Medium */
@@ -28,6 +29,7 @@
   src: url('./assets/fonts/Schibsted_Grotesk/SchibstedGrotesk-Medium.ttf') format('truetype');
   font-weight: 500;
   font-style: normal;
+  font-display: swap;
 }
 
 /* SchibstedGrotesk-Regular */
@@ -36,6 +38,7 @@
   src: url('./assets/fonts/Schibsted_Grotesk/SchibstedGrotesk-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
+  font-display: swap;
 }
 
 /* SchibstedGrotesk-SemiBold */
@@ -44,6 +47,7 @@
   src: url('./assets/fonts/Schibsted_Grotesk/SchibstedGrotesk-SemiBold.ttf') format('truetype');
   font-weight: 600;
   font-style: normal;
+  font-display: swap;
 }
 
 /* ProximaNovaBold */
@@ -52,6 +56,7 @@
   font-style: normal;
   font-weight: 800;
   src: url('./assets/fonts/Proxima_Nova/ProximaNovaBold.otf') format('opentype');
+  font-display: swap;
 }
 
 /* ProximaNovaSemibold */
@@ -60,4 +65,5 @@
   font-style: normal;
   font-weight: 600;
   src: url('./assets/fonts/Proxima_Nova/ProximaNovaSemibold.otf') format('opentype');
+  font-display: swap;
 }
