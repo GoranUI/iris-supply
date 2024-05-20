@@ -812,6 +812,11 @@ select {
   margin-bottom: 0.5rem;
 }
 
+.my-16 {
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+}
+
 .-mb-2 {
   margin-bottom: -0.5rem;
 }
@@ -1247,6 +1252,10 @@ select {
   padding-right: 0.75rem;
 }
 
+.pt-12 {
+  padding-top: 3rem;
+}
+
 .pt-16 {
   padding-top: 4rem;
 }
@@ -1257,6 +1266,14 @@ select {
 
 .pt-4 {
   padding-top: 1rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
+.pb-2 {
+  padding-bottom: 0.5rem;
 }
 
 .text-center {
@@ -1755,6 +1772,11 @@ select {
     grid-column: span 2 / span 2;
   }
 
+  .lg\:my-24 {
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+  }
+
   .lg\:mb-\[120px\] {
     margin-bottom: 120px;
   }
@@ -1878,8 +1900,17 @@ select {
     padding-bottom: 12rem;
   }
 
+  .lg\:py-24 {
+    padding-top: 6rem;
+    padding-bottom: 6rem;
+  }
+
   .lg\:pb-48 {
     padding-bottom: 12rem;
+  }
+
+  .lg\:pt-16 {
+    padding-top: 4rem;
   }
 
   .lg\:pt-2 {
@@ -1888,6 +1919,10 @@ select {
 
   .lg\:pt-24 {
     padding-top: 6rem;
+  }
+
+  .lg\:pb-24 {
+    padding-bottom: 6rem;
   }
 
   .lg\:text-\[96px\] {
