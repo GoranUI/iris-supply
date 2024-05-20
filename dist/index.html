@@ -49,7 +49,7 @@
   <div class="translate-x-full fixed top-0 bottom-0 right-0 z-20 w-64 bg-white transition-all duration-200 lg:hidden"
     id="menu">
     <div class="h-20 flex items-center justify-end px-4 sm:px-7 md:px-9 my-2">
-      <button class="text-iris-green px-2 py-2 rounded-lg" id="menu-button-close">
+      <button class="text-iris-green px-2 py-2 rounded-lg" id="menu-button-close" aria-label="Close menu">
         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
           class="w-8 h-8">
           <path stroke-linecap="round" stroke-linejoin="round" d="M6 18 18 6M6 6l12 12" />
@@ -82,7 +82,8 @@
   <!-- Scroll to top button -->
   <button id="scroll-to-top-button" class="fixed z-30 text-white rounded-full flex items-center justify-center opacity-0 transition-all duration-200
     bottom-4 right-4 sm:bottom-7 sm:right-7 md:bottom-9 md:right-9 w-12 h-12 md:w-16 md:h-16
-    bg-iris-green border border-iris-green hover:bg-iris-green-darker hover:border-iris-green-darker">
+    bg-iris-green border border-iris-green hover:bg-iris-green-darker hover:border-iris-green-darker"
+    aria-label="Scroll to top">
     <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"
       class="w-6 h-6 md:w-8 md:h-8">
       <path stroke-linecap="round" stroke-linejoin="round" d="m4.5 18.75 7.5-7.5 7.5 7.5" />
@@ -100,7 +101,7 @@
         </a>
       </div>
       <div class="block lg:hidden">
-        <button class="text-iris-green px-2 py-2 rounded-lg" id="menu-button">
+        <button class="text-iris-green px-2 py-2 rounded-lg" id="menu-button" aria-label="Open menu">
           <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
             stroke="currentColor" class="w-8 h-8">
             <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
@@ -515,7 +516,7 @@
             -->
 
             <div class="w-full pt-4">
-              <button type="submit"
+              <button type="submit" aria-label="Send message"
                 class="w-full text-white bg-iris-green rounded-lg px-5 py-3 font-schibsted font-bold text-lg uppercase border border-iris-green hover:bg-iris-green-darker hover:border-iris-green-darker transition-colors duration-200">Send
                 message</button>
             </div>
@@ -557,6 +558,7 @@
 
           <div class="grow-0 pt-4 sm:pt-0">
             <button type="submit" id="newsletter-submit" form="sib-form" type="submit"
+              aria-label="Subscribe to newsletter"
               class="w-full text-iris-green bg-white rounded-lg px-5 py-3 font-schibsted font-bold text-lg uppercase border border-white  hover:brightness-[85%] transition-all duration-200 sm:w-36">Subscribe</button>
           </div>
 
