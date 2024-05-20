@@ -542,18 +542,25 @@
             </p>
           </div>
         </div>
-        <!-- FIXME: Newsletter form  -->
-        <form class="pt-4 lg:pt-2 sm:flex sm:items-center sm:gap-4 sm:justify-between sm:mx-0" method="POST">
+
+        <!-- FIXED: By Goran  -->
+        <form class="pt-4 lg:pt-2 sm:flex sm:items-center sm:gap-4 sm:justify-between sm:mx-0" method="POST"
+          action="https://ac981a3b.sibforms.com/serve/MUIFAIhBFXKSgQCuNGKtzCQ76jVy832hOiSD79BEkiG_ssiP7WQVNdJLeCynqgUYQxtDtkcZRUhOJKugMgdn1vQV7UF8V_m1IbduDJn7sFCgKpvgDnunEW3bNU1DyvvWHC3uc8WfGeZhMOUR2gLH-Q5shXcHedWw_Y0E3BPIYsdXoR6G8muD_hTHuTdyFYsKbt22-SpqUr86hrfo">
           <div class="grow">
-            <input type="email" id="newsletter-email" name="newsletter-email" placeholder="Enter your email" required
+            <input type="text" id="EMAIL" name="EMAIL" autocomplete="off" data-required="true"
+              placeholder="Enter your email" required
               class="bg-white border border-light-gray rounded-lg px-4 py-2 h-[54px] w-full font-schibsted font-normal text-normal placeholder-placeholder-gray">
           </div>
 
 
           <div class="grow-0 pt-4 sm:pt-0">
-            <button type="submit" id="newsletter-submit"
+            <button type="submit" id="newsletter-submit" form="sib-form" type="submit"
               class="w-full text-iris-green bg-white rounded-lg px-5 py-3 font-schibsted font-bold text-lg uppercase border border-white  hover:brightness-[85%] transition-all duration-200 sm:w-36">Subscribe</button>
           </div>
+
+          <input type="text" name="email_address_check" value="" class="hidden">
+          <input type="hidden" name="locale" value="en">
+          <input type="hidden" name="html_type" value="simple">
         </form>
       </div>
     </div>
